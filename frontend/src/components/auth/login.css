@@ -14,20 +14,22 @@
   }
   
   .login_content > img {
-    width: 200px;
-    object-fit: contain;
-    margin: 20px;
+    width:400px;
   }
   
-  .login_content > button {
-    padding: 10px;
-    margin: 50px 0px;
-    background-color: #000;
-    color: #fff;
-    outline: none;
-    border: none;
-    border-radius: 3px;
-    letter-spacing: 1.1px;
-    font-family: monospace;
-    cursor: pointer;
+
+
+
+.login_content Button{
+  width:400px;
+     background-color:white;
+    border-radius:20px ;
+    color:black;
+    font-size:30px;
+}
+
+  .login_content Button:hover{
+    background-color: hsla(0, 0%, 100%, 0.463);
+    transform: scale(1.1);
+
   }
